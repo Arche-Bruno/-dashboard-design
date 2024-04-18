@@ -1,0 +1,50 @@
+.navCard_c{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.2rem;
+    cursor: pointer;
+    color: var(--color-secondary-light);
+    position: relative;
+    transition: all 0.3s ease;
+}
+.navCard_c span{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.navCard_c:hover{
+    color: var(--color-main);
+}
+.navCard_c::after{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: var(--color-main);
+    position: absolute;
+    right: 0;
+   
+    border-radius: 50%;
+    transform: scale(0);
+}
+.navCard_c.focus{
+    color: var(--color-main);
+}
+.navCard_c.focus::after{
+
+   transform: scale(1);
+}
+.navCard_c:hover .navCard_c-icon .icon{
+    transform: scale(1.2);
+
+}
+.navCard_c-icon .icon{
+    transition: all 0.3s ease;
+    font-size: 28px;
+}
+.navCard_c-icon{
+
+    display: grid;
+    place-items: center;
+    padding: 2px;
+}

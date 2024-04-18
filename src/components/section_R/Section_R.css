@@ -1,0 +1,23 @@
+.Section_R-c{
+   
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.section-c-section-main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+.section-c-section-main-footer h2{
+   font-size: 30px;
+   font-weight: 600;
+   margin-bottom: 3rem;
+}
+.section-c-section-footer h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}

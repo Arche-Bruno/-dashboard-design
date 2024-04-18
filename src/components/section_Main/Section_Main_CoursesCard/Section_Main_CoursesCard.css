@@ -1,0 +1,54 @@
+.section_main_coursesCard-c{
+
+    width: 100%;
+  
+    height: 180px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+ 
+}
+.section_main_coursesCard-c-name-progress{
+  padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+.section_main_coursesCard-c-icon{
+   
+    padding: 18px;
+    color: white;
+    
+  }
+  .section_main_coursesCard-c-icon .icon{
+    font-size: 120px;
+  }
+  .section_main_coursesCard-c-name-progress span{
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+  }
+  .section_main_coursesCard-c-name-progress p{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+  }
+  .section_main_coursesCard-c-progress{
+    width: 100%;
+    max-width: 80px;
+    position: relative;
+  
+  }
+  .section_main_coursesCard-c-progress span{
+    position: absolute;
+    top:35%;
+    right: 35%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  

@@ -1,0 +1,132 @@
+.section_main-c{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width: 100%;
+
+}
+.section_main-c h3{
+  color: #88042ca0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+/*******************   SEARCH    *******************/
+.container-courses_search{
+position: relative;
+width: 300px;
+}
+.container-search{
+width: 100%;
+  padding: 12px 5px;
+  outline: none;
+  box-sizing: border-box;
+
+ font-size: 18px;
+
+}
+.search-placeholder-icon{
+
+  transition: all 0.3s ease;
+  position: absolute;
+  top:14px;
+  right: 5%;
+}
+.search-placeholder{
+  position: absolute;
+  top:14px;
+  left: 5%;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  
+
+
+}
+.container-search:focus{
+  border: 1px solid var(--color-main);
+}
+.container-search:focus .search-placeholder-icon{
+color: var(--color-main);
+}
+
+.container-search:focus + .search-placeholder{
+  top: -10px;
+  background: linear-gradient(#fff 50%, #FFF 50%);
+  color: var(--color-main);
+
+}
+
+.section_main-c p{
+  color: var(--color-main);
+  font-weight: 700;
+}
+.container-courses{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container-Planing{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section_main-c-courses{
+width: 100%;
+ display: grid;
+ column-gap: 3rem;
+ row-gap: 2rem;
+
+ grid-template-columns: repeat(2,1fr);
+
+}
+.container-courses-search-title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.contaner-courses-search-title-view{
+  display: flex;
+  align-items: center;
+ gap: 2rem; 
+}
+.contaner-courses-search-title-view span{
+  color: var(--color-primary-light);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.section_main-c-icon{
+  display: none;
+}
+.container-courses-search-title h2{
+  font-size: 35px;
+  font-weight: 700;
+}
+@media screen and (max-width:900px) {
+  .section_main-c-icon{
+    display: block;
+    cursor: pointer;
+  }
+  .section_main-c-icon .icon{
+    font-size: 33px;
+  }
+  }
+@media screen and (max-width:600px) {
+  .section_main-c-courses{
+    width: 100%;
+     display: grid;
+     row-gap: 2rem;
+    
+     grid-template-columns: repeat(1,1fr);
+    
+    }
+    .container-courses-search-title{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    }
+  }

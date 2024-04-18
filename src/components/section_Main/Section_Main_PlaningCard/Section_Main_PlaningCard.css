@@ -1,0 +1,44 @@
+.section_main_planingCard-cx{
+  background-color: var(--color-secondary-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  cursor: pointer;
+    border-radius: 1rem;
+    width: 100%;
+    transition: all 0.3s ease;
+   
+}
+.section_main_planingCard-c-icon1-info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0rem 1rem 1.5rem;
+
+}
+.section_main_planingCard-c-icon1{
+  padding:10px;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+
+}
+.section_main_planingCard-c-info{
+  display: flex;
+  flex-direction: column;
+  
+}
+.section_main_planingCard-c-info span{
+    font-size: 18px;
+    font-weight: 500;
+    
+  }
+  .section_main_planingCard-c-info p{
+    font-size: 14px;
+    font-weight: 500;
+
+    
+  }
+.section_main_planingCard-c-icon2{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}

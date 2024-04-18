@@ -1,0 +1,148 @@
+.section_nav-c{
+    width: 100%;
+    max-width: 220px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    padding: 1rem 0;
+}
+.section_nav-c_nav-img-btn{
+    width: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+/******************* IMAGE LOGO ********************/
+.section_nav-c_logo{
+   
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+
+}
+.section_nav-c_logo-img{
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.section_nav-c_logo-img img{
+
+    display: block;
+    width: 100%;
+}
+/******************* TITLE-NAME ********************/
+
+
+.section_nav-c_-logo-name{
+    display: flex;
+    align-items: center;
+
+   
+
+}
+.section_nav-c_-logo-name span{
+    font-weight: 800;
+    font-size: 25px;
+ 
+}
+.section_nav-c_-logo-name p{
+    font-weight: 800;
+    font-size: 26px;
+    color: var(--color-main);
+
+}
+
+
+
+.section_nav-c_image{
+    width: 100%;
+}
+.section_nav-c_image img{
+    display: block;
+    width: 100%;
+}
+
+/******************* BUTTON-BUY-PRO ********************/
+.section_nav-c_buttonPro{
+    background-color:var(--color-main-bg);
+    padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  cursor: pointer;
+}
+.section_nav-c_buttonPro h3{
+    font-size: 16px;
+    font-weight: 800;
+}
+.section_nav-c_buttonPro-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_nav-c_buttonPro-icon span{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 16px;
+    color: #88042ca0;;
+}
+.section_nav-c_buttonPro-icon span p{
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--color-main);
+}
+.section_nav-c_buttonPro:hover .section_nav-c_buttonPro-icon-i .icon{
+   transform: scale(1.2);
+}
+.section_nav-c_buttonPro-icon-i .icon{
+    transition: all 0.3s ease;
+}
+.section_nav-c_buttonPro-icon-i{
+  background-color:antiquewhite;
+  color: var(--color-main);
+  padding: 5px;
+  display: grid;
+  place-items: center;
+  border-radius: 0.5rem;
+  font-weight: 800;
+}
+
+.section_nav-c-icon{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .section_nav-c-icon{
+        display: block;
+        position: absolute;
+        top: 0.5%;
+        right: 0%;
+    
+       display: grid;
+       place-items: center;
+       padding: 3px;
+       border-radius: 0.5rem;
+       color: red;
+       cursor: pointer;
+    }
+    .section_nav-c-icon .icon{
+        transition: all 0.3s ease-in-out;
+        font-size: 35px;
+      }
+    
+    .section_nav-c_logo{
+       
+        margin-top: 2rem;
+    
+    }
+    }
