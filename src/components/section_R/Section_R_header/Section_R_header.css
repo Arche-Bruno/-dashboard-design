@@ -90,11 +90,14 @@ color: var(--color-main);
         .section-r-header-c{
             position: absolute;
             top: 4%;
-            right: 3%;
+            right: -10%;
             width: 100%;
             max-width: 150px; 
          }
     .section-r-header-c-dataUser-info{
  display: none;
+    }
+    .section-r-header-c-icon{
+        display: none;
     }
         }
