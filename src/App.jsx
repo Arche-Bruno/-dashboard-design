@@ -15,6 +15,7 @@ function App() {
       <div className={`showShadow ${showNav ? "show":""}`}>
 
       </div>
+      
       <header className={`seccion_header ${showNav ? "show" : ""}`}>
           <Section_Nav></Section_Nav>
       </header>
